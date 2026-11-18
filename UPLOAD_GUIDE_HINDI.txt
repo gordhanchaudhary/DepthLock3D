@@ -1,0 +1,20 @@
+DepthLock 3D — GitHub par upload karne ka tarika
+
+1. ZIP file download karke extract karein.
+2. Extract hone ke baad DepthLock3D folder kholein.
+3. Is folder ke ANDAR ki saari files aur folders select karein. .github folder bhi zaroor select karein.
+4. GitHub par apni DepthLock3D repository kholein.
+5. Add file > Upload files par tap karein.
+6. Selected files/folders upload karein aur neeche Commit changes kar dein.
+7. Repository ke Actions tab mein Build DepthLock 3D APK workflow chalega.
+8. Build green/success hone ke baad workflow run kholein aur Artifacts mein DepthLock3D-debug-apk download karein.
+
+App chalane par:
+- Choose photo dabakar apni photo select karein.
+- Automatically remove background dabayein. Processing phone par hogi.
+- Preview / apply live wallpaper dabayein.
+
+Dhyan dein:
+- ML Kit segmentation beta hai; har photo ka cut-out perfect nahi hota.
+- Android/ColorOS lock screen par third-party live wallpaper support ko restrict kar sakta hai.
+- APK tabhi milega jab GitHub Actions build successful hoga.
